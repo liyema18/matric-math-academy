@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#10223d">
+<meta name="description" content="Offline-first Grade 12 South African NSC Mathematics study app">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="styles.css">
+<title>Matric Maths Academy</title>
+</head>
+<body>
+<header class="topbar">
+  <div class="brandmark">∑</div><div class="brand"><b>Matric Maths</b><small>GRADE 12 • NSC • CAPS</small><small class="owner">Made by Liyema Ndzata</small></div>
+  <button id="profileBtn" class="profile-chip" aria-label="Choose learner">👤 <span id="activeName">Learner</span></button>
+</header>
+<div class="shell">
+<aside class="sidebar">
+  <button class="nav active" data-page="home">⌂ <span>Dashboard</span></button>
+  <button class="nav" data-page="learn">▤ <span>Learn topics</span></button>
+  <button class="nav" data-page="practice">✎ <span>Practice</span></button>
+  <button class="nav" data-page="lab">⌁ <span>Graph lab</span></button>
+  <button class="nav" data-page="scores">♜ <span>Scoreboard</span></button>
+  <button class="nav" data-page="papers">▣ <span>Past papers</span></button>
+  <div class="sidebar-note"><b>Offline-first</b><p>Lessons, practice and local profiles work without internet after the app files are available.</p></div>
+</aside>
+<main id="main" tabindex="-1"></main>
+</div>
+<div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+ <div class="modal-card"><button class="close" id="closeModal" aria-label="Close">×</button><h2 id="modalTitle">Learner profiles</h2><div id="modalBody"></div></div>
+</div>
+<footer>Made by Liyema Ndzata • Built for learning • Check official exam guidelines with your teacher.</footer>
+<script src="app.js"></script>
+</body></html>

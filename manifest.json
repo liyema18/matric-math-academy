@@ -1,0 +1,10 @@
+{
+  "name": "Matric Maths Academy - Grade 12 NSC",
+  "short_name": "Matric Maths",
+  "description": "Offline-first South African Grade 12 NSC Mathematics study app",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#10223d",
+  "icons": []
+}
